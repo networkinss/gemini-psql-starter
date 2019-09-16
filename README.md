@@ -1,9 +1,10 @@
 
 # Gemini Postgresql Starter
 
-This repository can be used to start with Gemini as a Gradle dependency module. You can see more about the framework
- [here](https://github.com/gemini-projects/gemini) or take a look at the [documentation](https://gemini.at7.it/).
+This repository can be used to start with Gemini as a Gradle dependency module. Gemini is a Model Driven REST Framework
+to automatically build FULL CRUD backends.
 
+> You can see more about the framework in the official repository [here](https://github.com/gemini-projects/gemini).
 
 ## What is included ?
 
