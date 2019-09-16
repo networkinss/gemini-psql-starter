@@ -1,0 +1,28 @@
+
+# SYNTAX:
+# ENTITY-RECORD ENTITYNAME LABEL VERSION
+# used to initialize records - each time Gemini starts it checks the label/version to insert/update records
+
+# make the GENDER an immutable entity. NO POST/PUT operations available
+
+ENTITY-RECORD ENTITY GENDER-CONFIG 1
+[{
+    "name": "GENDER",
+    "closedDomain": true
+}]
+
+# initialize the Gender with M / F / N
+
+ENTITY-RECORD GENDER INIT-GENDER 1
+[{
+    "code": "M",
+    "description": "Male"
+},
+{
+    "code": "F",
+    "description": "Female"
+},
+{
+    "code": "N",
+    "description": "Not specified"
+}]

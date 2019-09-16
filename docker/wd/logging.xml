@@ -1,0 +1,4 @@
+
+<!-- Change level to DEBUG if you want to see detailed logs -->
+<logger name="it.at7" level="INFO">
+</logger>

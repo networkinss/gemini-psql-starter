@@ -1,0 +1,19 @@
+
+ENTITY COMPANY {
+    TEXT    name *
+    DATE    foundation
+}
+
+ENTITY EMPLOYEE {
+    NUMBER  identifier *
+    TEXT    firstName
+    TEXT    lastName
+    TEXT    fullName
+    GENDER  gender
+    DATE    hireDate
+    DATE    birthDate
+    COMPANY company
+}
+
+# domain is a special entity with fields [ code - description ]
+ENTITY GENDER IMPLEMENTS DOMAIN
