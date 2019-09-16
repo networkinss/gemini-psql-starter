@@ -15,5 +15,5 @@ ENTITY EMPLOYEE {
     COMPANY company
 }
 
-# domain is a special entity with fields [ code - description ]
+# Domain is a special entity with fields [ code - description ]
 ENTITY GENDER IMPLEMENTS DOMAIN

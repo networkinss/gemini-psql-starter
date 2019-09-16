@@ -6,7 +6,11 @@ to automatically build FULL CRUD backends.
 
 > You can see more about the framework in the official repository [here](https://github.com/gemini-projects/gemini).
 
+
 ## What is included ?
+
+Please read [this article](https://medium.com/@h4t0n/gemini-starter-model-driven-rest-apis-in-minutes-9576a4988ff)
+ that well explain all the parts of this Gemini start example. Briefly:
 
 * Custom Gemini Module with some Example Entities and Records
     * *resources/schemas/CUSTOM_MODULE.at*
