@@ -27,6 +27,9 @@ apply plugin: 'org.springframework.boot'
 
 sourceCompatibility = 1.10
 
+compileJava.options.fork = true
+compileJava.options.forkOptions.executable = '/usr/lib/jvm/jdk-11.0.7/bin/javac'
+
 
 dependencies {
     compile 'it.at7.gemini:gemini-postgresql:0.3.2'
