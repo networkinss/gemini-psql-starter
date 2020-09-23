@@ -56,10 +56,10 @@
       <groupId>it.at7.gemini</groupId>
       <artifactId>gemini-postgresql</artifactId>
       <version>0.3.2</version>
-        <scope>compile</scope>
-        <!-- 
+        <scope>system</scope>
+   
         <systemPath>${project.basedir}/libs/gemini-postgresql-0.3.2.jar</systemPath>
-        -->
+
     </dependency>
     <dependency>
       <groupId>junit</groupId>

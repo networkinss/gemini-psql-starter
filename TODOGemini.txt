@@ -1,8 +1,9 @@
-Make this project work.
+Make this project work with Maven.
 https://github.com/networkinss/gemini
 
+Requirements: Gradle, Maven, Docker, docker-compose, postgresql, Java 10.
 
-First step is to make it work with Gradle.
+1. First step is to make it work with Gradle.
 It currently fails because it uses tests with a postgresql database.
 I configured a postgresql with credentials mentioned in 
 gemini/gemini-postgresql/src/test/resources/application.properties
@@ -13,6 +14,7 @@ Output shall be a working jar. That jar will be tested with a sample project.
 
 2. Sample project for step 1:
 https://github.com/networkinss/gemini-psql-starter
+
 It has a local reference in the pom.xml in folder libs.
 The jar built in step 1 shall be put there.
 Make the project compile correctly.
